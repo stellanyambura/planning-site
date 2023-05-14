@@ -1,0 +1,92 @@
+.landingpage-container {
+  background-image: url('https://blogs.worldbank.org/sites/default/files/water/pol-urban-planning-780.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+  
+  
+  
+  
+  
+  .content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+  }.heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .heading-container h1 {
+    margin-right: 20px;
+      font-weight: bold;
+
+  }
+  .landingpage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  background-color: skyblue;
+  color: white;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.container h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.landingpage-container {
+  background-color: skyblue;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.content {
+  padding: 50px;
+}
+
+.content h1 {
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.content p {
+  color: black;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+  

@@ -1,0 +1,43 @@
+footer.main-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-image: url("https://www.example.com/path/to/image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0.2rem 0;
+}
+
+  
+
+footer.main-footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+footer.main-footer ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 .1500rem;
+}
+
+footer.main-footer ul li img {
+  width: 28px;
+  cursor: pointer;
+}
+footer.main-footer ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 .1500rem;
+}
+
+footer.main-footer ul li img {
+  width: 28px;
+  cursor: pointer;
+}
