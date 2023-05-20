@@ -1,15 +1,21 @@
 import React from 'react';
+import { useSpring, animated } from 'react-spring';
 import Navbar from '../../Navbar/Navbar';
 import Footer from '../../Footer/Footer';
 import './LandingPage.css';
 
 function LandingPage() {
+  const fadeIn = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: { duration: 1000 },
+  });
+
   return (
     <div className="landingpage-container">
       <Navbar />
       <div className="content">
-        <h1>COMPANY PROFILE</h1>
-        <p>Here is some example content.</p>
+        <animated.h1 style={fadeIn}>COMPANY PROFILE</animated.h1>
       </div>
       <div className="information-container">
         <h2>Ripple Planning Associates Ltd</h2>

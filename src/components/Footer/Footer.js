@@ -8,22 +8,16 @@ const Footer = () => (
   <footer className="main-footer">
     <ul>
       <li>
-        <a href="mailto:rippleassociatesltd@gmail.com" target="_blank" rel="noopener noreferrer">
-          <img src={EmailIcon} alt="Email" title="Email" />
-          rippleassociatesltd@gmail.com
-        </a>
+        <img src={EmailIcon} alt="Email" title="Email" />
+        rippleassociatesltd@gmail.com
       </li>
       <li>
-        <a href="tel:+254714398806" target="_blank" rel="noopener noreferrer">
-          <img src={PhoneIcon} alt="Phone" title="Phone" />
-          +254 714 398 806
-        </a>
+        <img src={PhoneIcon} alt="Phone" title="Phone" />
+        +254 714 398 806
       </li>
       <li>
-        <a href="https://goo.gl/maps/gxJBJcnX9FJ2" target="_blank" rel="noopener noreferrer">
-          <img src={AddressIcon} alt="Address" title="Address" />
-          Postal address 1232-00100, Nairobi, Kenya.
-        </a>
+        <img src={AddressIcon} alt="Address" title="Address" />
+        Postal address 1232-00100, Nairobi, Kenya.
       </li>
     </ul>
   </footer>

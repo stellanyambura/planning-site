@@ -4,7 +4,7 @@ import About from "./components/pages/About";
 import LandingPage from "./components/pages/landingpage/LandingPage"
 import Services from './components/pages/Services';
 import HomePage from './components/pages/HomePage';
-import Aproach from './components/pages/Aproach';
+import Approach from './components/pages/Approach';
 import './App.css'; 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
-          <Route path='/aproach' element={<Aproach/>} />
+          <Route path='/approach' element={<Approach/>} />
           <Route path="/home" element={<HomePage />} />
         </Routes>
       </BrowserRouter>
