@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import About from "./components/pages/About";
 import LandingPage from "./components/pages/landingpage/LandingPage"
 import Services from './components/pages/Services';
-import HomePage from './components/pages/HomePage';
+import CompanyInfor from './components/pages/CompanyInfor';
 import Approach from './components/pages/Approach';
 import './App.css'; 
 
@@ -17,7 +17,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
           <Route path='/approach' element={<Approach/>} />
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/companyinfor" element={<CompanyInfor />} />
         </Routes>
       </BrowserRouter>
     </div>
