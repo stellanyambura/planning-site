@@ -41,3 +41,8 @@ footer.main-footer ul li img {
   width: 28px;
   cursor: pointer;
 }
+/* LandingPage.css */
+
+.dark-text {
+  color: #333; /* Dark color code */
+}

@@ -7,15 +7,15 @@ import './Footer.css';
 const Footer = () => (
   <footer className="main-footer">
     <ul>
-      <li>
+      <li className="dark-text">
         <img src={EmailIcon} alt="Email" title="Email" />
         rippleassociatesltd@gmail.com
       </li>
-      <li>
+      <li className="dark-text">
         <img src={PhoneIcon} alt="Phone" title="Phone" />
         +254 714 398 806
       </li>
-      <li>
+      <li className="dark-text">
         <img src={AddressIcon} alt="Address" title="Address" />
         Postal address 1232-00100, Nairobi, Kenya.
       </li>

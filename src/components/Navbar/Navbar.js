@@ -7,7 +7,8 @@ function Navbar() {
     <nav>
       <div className="logo">
         <Link to="/">
-          <span>My Logo</span>
+          <span className="logo-top">Ripple</span>
+          <span className="logo-bottom">PLANNNG ASSOCIATION L.T.D</span>
         </Link>
       </div>
       <ul className="nav-links">
